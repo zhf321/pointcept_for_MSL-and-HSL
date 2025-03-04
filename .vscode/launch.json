@@ -1,0 +1,19 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "${workspace}/tools/train.py",   
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "args": [
+                "--config-file", "/home/zhaohaifeng/code/model/Pointcept-main/configs/s3dis/pretrain-sc-fac-sp-attr-v1m1-0-spfpn-base-rgb-pos.py",
+                "--num-gpus", "1",
+            ]
+        }
+    ]
+}
